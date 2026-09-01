@@ -1,18 +1,7 @@
-# Justin LE MEUR — Composer Website V1
+# Justin LE MEUR — V2 sans images
 
-Static HTML/CSS/JavaScript portfolio designed for GitHub Pages.
+Site portfolio CSS-only, conçu pour rester élégant sans artwork provisoire.
+Les dossiers `music/`, `covers/` et `backgrounds/` sont prêts pour de futurs contenus.
 
-## Add a new track
-1. Put the MP3 in `music/`.
-2. Put the cover in `covers/`.
-3. Open `js/tracks.js`.
-4. Copy one track object and change its information.
-
-No framework, build step or server required.
-
-## Current tracks
-- Two Sides
-- Arise
-
-## Contact
-just.lemeur@gmail.com
+## Ajouter un morceau
+Place le MP3 dans `music/`, puis ajoute son entrée dans `js/tracks.js`.
