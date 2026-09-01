@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Music portfolio — Justin LE MEUR.">
+<title>Music | Justin LE MEUR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body><div class="grain"></div>
+<header class="site-header"><a class="brand" href="index.html">JUSTIN <span>LE MEUR</span></a><button class="menu-toggle">☰</button><nav class="nav"><a href="index.html">Home</a><a class="active" href="portfolio.html">Music</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav></header>
+<main><section class="page-hero"><p class="eyebrow">PORTFOLIO</p><h1>The music.</h1><p>Orchestral VGM for exploration, emotion, adventure and battle.</p></section>
+<section class="section"><div id="filters" class="filters"></div><div id="all-tracks" class="track-grid"></div></section></main>
+<footer class="footer"><span>© 2026 Justin LE MEUR</span><span>Orchestral Music for Story-Driven Games</span><a href="https://www.youtube.com/@pador1511" target="_blank" rel="noopener">YouTube ↗</a></footer>
+<div id="player" class="player hidden"><button id="player-play">▶</button><div class="player-info"><b id="player-title">—</b><span id="player-genre">—</span></div><input id="progress" type="range" min="0" max="100" value="0"><span id="time">0:00</span><audio id="audio"></audio><button id="player-close">×</button></div>
+<script src="js/tracks.js"></script><script src="js/player.js"></script><script src="js/app.js"></script></body></html>
