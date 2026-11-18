@@ -1,0 +1,1 @@
+window.TRACKS=[{title:"Two Sides",category:"Emotional / Exploration",tags:["Emotional","Exploration"],description:"A journey between light and darkness.",audio:"music/two-sides.mp3",featured:true},{title:"Arise",category:"Epic Orchestral Battle",tags:["Epic","Battle"],description:"A theme of ascent, struggle and overcoming yourself.",audio:"music/arise.mp3",featured:true}];
